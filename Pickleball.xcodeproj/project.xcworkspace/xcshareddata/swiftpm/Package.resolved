@@ -1,0 +1,24 @@
+{
+  "originHash" : "6f441b1a6030b1915c24c22fd5e9ca9c9632daf161f9cf863333d6ca29ae9e4b",
+  "pins" : [
+    {
+      "identity" : "hotwire-native-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hotwired/hotwire-native-ios",
+      "state" : {
+        "revision" : "f18b87938f55cbe8976e96702b5512fa9afcd674",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "turbo-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hotwired/turbo-ios",
+      "state" : {
+        "revision" : "90227d6a3d090ee4eaacfddca3ef4cc433380f2d",
+        "version" : "7.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

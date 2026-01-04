@@ -1,0 +1,11 @@
+# Auth keys / credentials
+AuthKey_*.p8
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+
+# Env files
+.env
+.env.*
