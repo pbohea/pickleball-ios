@@ -1,28 +1,21 @@
 import HotwireNative
 import UIKit
 
-private let mapTab = HotwireTab(
-    title: "Map",
-    image: UIImage(systemName: "map")!,
-    url: baseURL.appending(path: "map")
+private let homeTab = HotwireTab(
+    title: "Home",
+    image: UIImage(systemName: "house")!,
+    url: baseURL.appending(path: "/")
 )
 
-//private let menuTab = HotwireTab(
-//    title: "Menu",
-//    image: UIImage(systemName: "menucard")!,
-//    url: baseURL.appending(path: "menu")
-//)
-
-private let eventsTab = HotwireTab(
-        title: "Home",
-        image: UIImage(systemName: "music.microphone")!,
-        url: baseURL.appending(path: "/")
+private let uploadTab = HotwireTab(
+    title: "Upload",
+    image: UIImage(systemName: "video")!,
+    url: baseURL.appending(path: "upload")
 )
 
 extension HotwireTab {
     static let all = [
-        eventsTab,
-        mapTab
-        //menuTab
+        homeTab,
+        uploadTab
     ]
 }
