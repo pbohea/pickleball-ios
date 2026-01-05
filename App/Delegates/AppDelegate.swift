@@ -32,6 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Hotwire.registerBridgeComponents([
             ButtonComponent.self,
             NotificationTokenComponent.self,
+            IconButtonComponent.self,
             VideoUploadComponent.self
         ])
         return true
