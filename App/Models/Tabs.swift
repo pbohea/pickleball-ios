@@ -4,13 +4,13 @@ import UIKit
 private let homeTab = HotwireTab(
     title: "Home",
     image: UIImage(systemName: "house")!,
-    url: baseURL.appending(path: "/")
+    url: baseURL
 )
 
 private let uploadTab = HotwireTab(
     title: "Upload",
     image: UIImage(systemName: "video")!,
-    url: baseURL.appending(path: "upload")
+    url: baseURL.appendingPathComponent("upload")
 )
 
 extension HotwireTab {
