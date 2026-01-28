@@ -3,7 +3,7 @@ import UIKit
 import WebKit
 
 //dev
-let baseURL = URL(string: "https://barchordtestdomain.ngrok.app")!
+let baseURL = URL(string: "https://dinkster-advuvp5n5a-uc.a.run.app/")!
 //prod
 //let baseURL = URL(string: "https://pickleball.co")!
 
